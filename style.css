@@ -61,18 +61,29 @@ h3{
 }
 .food-menu{
     display: flex;
+    justify-content: center;
 }
 .menu{
-    border-radius: 30px;
+    border-radius: 16px;
     padding: 16px;
     box-shadow: 10px 10px 40px #828282;
-    width: 50%;
-    margin: 0 16px;
+    width: 30%;
+    margin: 32px 16px;
 }
 .menu img{
     width: 100%;
-    border-radius: 30px;
+    border-radius: 16px;
     size: cover;
+}
+.menu-content{
+    padding: 24px 0;
+}
+.learn-more{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: white;
+    border-radius: 8px;
 }
 
 .followers{
