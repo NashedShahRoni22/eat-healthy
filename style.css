@@ -31,3 +31,15 @@ h1{
 .banner-content{
     margin: 48px 0;
 }
+.second-banner{
+    display: flex;
+    align-items: center;
+    margin: 64px 0px;
+    background-image: url(./images/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.second-banner img{
+    width: 50%;
+    margin: 32px 0px 0px 0px;
+}
